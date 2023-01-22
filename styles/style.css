@@ -1,3 +1,4 @@
+/* 1st section Style */
 * {
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
@@ -12,6 +13,7 @@
   top: 216px;
   left: 845px;
   right: 150px;
+  /* padding: 216px 150px 0px 845px;    clear hote hobe kano kaj kore na */
 }
 .header-text {
   text-align: right;
@@ -21,19 +23,37 @@
   font-size: 65px;
   color: white;
 }
-.header-text p{
-    color: white;
-    margin-top: 26px;
-    margin-bottom: 32px;
-
+.header-text p {
+  color: white;
+  margin-top: 26px;
+  margin-bottom: 32px;
 }
-.btn-primary{
-    background-color: white;
-    height: 64px;
-    width: 160px;
-    border-radius: 8px;
-    border: none;
-    
+.btn-primary {
+  background-color: white;
+  height: 64px;
+  width: 160px;
+  border-radius: 8px;
+  border: none;
 }
 
-
+/* 2nd section style */
+.content {
+  margin: 40px 180px;
+  text-align: left;
+}
+.content-img-div {
+  display: flex;
+  gap: 90px;
+}
+.content-blog-div h4 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 200px;
+}
+.content-blog-div p {
+    font-weight: 400;
+    font-size: 18px; 
+    color: #444343;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
