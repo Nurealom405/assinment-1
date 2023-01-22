@@ -38,7 +38,7 @@
 
 /* 2nd section style */
 .content {
-  margin: 40px 180px;
+  margin: 70px 180px;
   text-align: left;
 }
 .content-img-div {
@@ -51,9 +51,41 @@
   margin-top: 200px;
 }
 .content-blog-div p {
-    font-weight: 400;
-    font-size: 18px; 
-    color: #444343;
-    margin-top: 14px;
-    margin-bottom: 14px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #444343;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
+/* 3rd section style */
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+.myplane-blog {
+  display: flex;
+  margin-top: 40px;
+}
+.plane-item img{
+    /* text-align: center; */
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.plane-item h4 {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 18px;
+  
+}
+.plane-item p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    text-align: center;
+}
+/* 4th section style */
