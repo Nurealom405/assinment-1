@@ -44,7 +44,6 @@
 .content-2 {
   margin: 70px 180px;
   text-align: left;
-  
 }
 .content-img-div {
   display: flex;
@@ -94,24 +93,20 @@
 /* 4th section style */
 .radiant-content-img {
   position: relative;
-  background-image: url('../images/watch.png');
+  background-image: url("../images/watch.png");
   background-repeat: no-repeat;
-  
-  
 }
 .radiant-content-text {
   position: absolute;
   top: 70px;
   left: 60px;
   /* background-image: url('../images/watch.png'); */
-  
 }
 .radiant-content-text h4 {
   font-weight: 700;
   font-size: 40px;
   color: white;
   margin-bottom: 25px;
-  
 }
 /* footer style */
 .footer-container {
@@ -125,36 +120,35 @@
   justify-content: center;
 }
 .section-title-2 {
-    font-weight: 700;
-    font-size: 40px;
-    text-align: left;
-    margin-bottom: 20px;
-  }
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 20px;
+}
 
-.btn-secondary{
-    background-color: rgb(69, 69, 249);
-    height: 64px;
-    width: 120px;
-    border-radius: 8px;
-    border: none;
-    margin-bottom: 90px;
-  }
-  .left{
-    margin-left: 100px;
-  }
-  .left p{
-    text-align: left;
-    margin-bottom: 25px;
-  }
-  .left img{
-    margin-right: 10px;
-  }
-  .right input[type="email"]{
-    height: 50px;
-    width: 450px;
-    background-color: black;
-    border: 4px solid white;
-    border-radius: 15px;
-    margin-bottom: 20px;
-  }
-
+.btn-secondary {
+  background-color: rgb(69, 69, 249);
+  height: 64px;
+  width: 120px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 90px;
+}
+.left {
+  margin-left: 100px;
+}
+.left p {
+  text-align: left;
+  margin-bottom: 25px;
+}
+.left img {
+  margin-right: 10px;
+}
+.right input[type="email"] {
+  height: 50px;
+  width: 450px;
+  background-color: black;
+  border: 4px solid white;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
