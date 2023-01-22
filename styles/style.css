@@ -44,6 +44,7 @@
 .content-2 {
   margin: 70px 180px;
   text-align: left;
+  
 }
 .content-img-div {
   display: flex;
@@ -93,17 +94,24 @@
 /* 4th section style */
 .radiant-content-img {
   position: relative;
+  background-image: url('../images/watch.png');
+  background-repeat: no-repeat;
+  
+  
 }
 .radiant-content-text {
   position: absolute;
   top: 70px;
   left: 60px;
+  /* background-image: url('../images/watch.png'); */
+  
 }
 .radiant-content-text h4 {
   font-weight: 700;
   font-size: 40px;
   color: white;
   margin-bottom: 25px;
+  
 }
 /* footer style */
 .footer-container {
