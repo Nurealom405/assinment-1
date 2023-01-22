@@ -1,0 +1,39 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  margin: auto;
+}
+.banner {
+  /* margin: 3%; */
+  position: relative;
+}
+.header-text {
+  position: absolute;
+  top: 216px;
+  left: 845px;
+  right: 150px;
+}
+.header-text {
+  text-align: right;
+}
+.header-text h4 {
+  font-weight: 700;
+  font-size: 65px;
+  color: white;
+}
+.header-text p{
+    color: white;
+    margin-top: 26px;
+    margin-bottom: 32px;
+
+}
+.btn-primary{
+    background-color: white;
+    height: 64px;
+    width: 160px;
+    border-radius: 8px;
+    border: none;
+    
+}
+
+
